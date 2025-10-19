@@ -33,10 +33,11 @@ Successfully implemented a complete web-based marketplace for Sri Lankan arts an
 5. `vendor/delete_product.php` - Delete product
 6. `vendor/orders.php` - Vendor order management
 
-### Includes (4 files)
+### Includes & Configuration (4 files)
 1. `includes/header.php` - Common header with navigation
 2. `includes/footer.php` - Common footer
 3. `includes/auth.php` - Authentication and authorization functions
+4. `config/database.php` - Database connection (also listed in Database section)
 
 ### Assets (3 files)
 1. `css/style.css` - Complete responsive styling (414 lines)
