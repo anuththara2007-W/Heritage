@@ -1,0 +1,3 @@
+This is a placeholder for the default product/category image.
+In a real deployment, replace this with actual image files.
+For development, you can use any 600x400 image and name it placeholder.jpg
