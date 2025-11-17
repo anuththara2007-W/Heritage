@@ -1,0 +1,24 @@
+# PHP
+*.log
+.htaccess
+
+# Uploaded files (keep directory structure but not actual uploads)
+uploads/products/*
+uploads/logos/*
+!uploads/products/.gitkeep
+!uploads/logos/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
