@@ -1,0 +1,55 @@
+# Dependencies and packages
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Uploaded images (keep the directories but not the content)
+assets/images/products/*.jpg
+assets/images/products/*.jpeg
+assets/images/products/*.png
+assets/images/products/*.gif
+assets/images/categories/*.jpg
+assets/images/categories/*.jpeg
+assets/images/categories/*.png
+assets/images/categories/*.gif
+!assets/images/placeholder.jpg
+
+# Configuration files with sensitive data (use .example files instead)
+config/database.php
+
+# Logs and debugging
+*.log
+error_log
+debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Cache
+cache/
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Environment files
+.env
+.env.local
